@@ -1,0 +1,88 @@
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 400px;
+    width: 500px;
+    background-image: url('./ti.jpg');
+    background-repeat: no-repeat;
+    /* Tente usar o quadrado (card) inteiro */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Efeitos */
+    filter: grayscale(0.5);
+    color: white;
+    cursor: pointer;
+    /* Define a transiçao de estado de 2 elementos */
+    transition: 0.3s;
+}
+
+.card-wrapper{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Para mexer no pseudo elemento (que adiciona um elemento antes ou depois do que esta selecionando) do card-wrapper para fazer o efeito de borda que vai expandir na tela*/
+    position: relative;
+}
+
+/* Pseudo elemento */
+.card-wrapper::before{
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    display: block;
+    border: 1px solid white;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.card-wrapper h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.3s;
+}
+
+.card-wrapper p{
+    font-size: 0;
+    visibility: hidden;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.card:hover{
+    filter: unset;
+}
+
+/* Ao passar o mouse mostra a transiçao */
+.card:hover > .card-wrapper::before{
+    height: 300px;
+    width: 400px;
+    opacity: 1;
+}
+
+/* Ao passar o mouse, edita o p */
+.card:hover > .card-wrapper p{
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}
+
+
+
