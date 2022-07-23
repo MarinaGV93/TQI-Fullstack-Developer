@@ -1,0 +1,27 @@
+{
+  "name": "tqi-fullstack-developer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarinaGV93/TQI-Fullstack-Developer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarinaGV93/TQI-Fullstack-Developer/issues"
+  },
+  "homepage": "https://github.com/MarinaGV93/TQI-Fullstack-Developer#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^5.0.1"
+  }
+}
