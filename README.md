@@ -49,7 +49,7 @@ Antes de começar, você precisa ter instalado em sua máquina um editor para tr
 
 <div id="table" align="center">
 
-| Desafios <img src="#" alt="Desafios" width="50px" align="center"> | Extras <img src="#" alt="Extras" width="50px" align="center">
+| Desafios 🧠 | Extras ✨
 | :--------: | :------: |
 | [De Quem é a Vez - Java](https://github.com/MarinaGV93/TQI-Fullstack-Developer/blob/main/Desafios/Java/De%20Quem%20%C3%A9%20a%20Vez.java) | [Banco Digital com Java e Orientação a Objetos](https://github.com/MarinaGV93/TQI-Fullstack-Developer/tree/main/Criando%20um%20Banco%20Digital%20com%20Java%20e%20Orienta%C3%A7%C3%A3o%20a%20Objetos) |
 | [Distância Entre Dois Pontos - Java](https://github.com/MarinaGV93/TQI-Fullstack-Developer/blob/main/Desafios/Java/Dist%C3%A2ncia%20Entre%20Dois%20Pontos.java) | [Front-end com ReactJS](https://github.com/MarinaGV93/TQI-Fullstack-Developer/tree/main/Criando%20um%20front-end%20totalmente%20componentizado%20na%20pr%C3%A1tica%20com%20ReactJS) |
